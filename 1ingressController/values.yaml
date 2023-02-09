@@ -1,0 +1,13 @@
+controller:
+  # kind: Daemonset #if we go with this then HPA won't be created
+  autoscaling:
+    enabled: true
+  resources:
+    limits:
+      cpu: 500m
+      memory: 1028Mi
+    requests:
+      cpu: 200m
+      memory: 512Mi
+  # extraArgs: 
+  #     v: 3   #for debugging

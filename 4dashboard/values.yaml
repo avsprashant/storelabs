@@ -1,0 +1,7 @@
+service:
+  externalPort: 81
+  
+protocolHttp: true
+extraArgs:
+  - --enable-insecure-login
+  - --system-banner="Welcome to Kubernetes"
