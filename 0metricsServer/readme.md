@@ -1,4 +1,5 @@
-# kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+# Installation of metrics-server
+- kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
 
-After Installation, check if metrics are getting exposed.
-# kubectl get apiservices | grep metrics
+# After Installation, check if metrics are getting exposed.
+- kubectl get apiservices | grep metrics
