@@ -10,8 +10,7 @@
 # Second:
 - The chart doesn't contain possibility to attach the SA to cluster-admin ClusterRole. 
 - Although it's not advised in production to give admin access to dashboard SA.
-
-# Hence, we need to apply some configuration manually after our helm release.
+- Hence, we need to apply some configuration manually after our helm release.
 
 # Installation of kubernetes-dashboard
 - helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
